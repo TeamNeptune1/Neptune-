@@ -6,9 +6,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="signup.css">
 </head>
-<!-- Code by @Ayoemma -->
+<!-- Code modified by @Atinu -->
 <body>
 	<main class="intro">
 		<div class="container">
@@ -29,13 +29,17 @@
 
 			<section class="container-bottom">
 				<form class="login-form">
-					<h3>USER LOGIN</h3>
+                    <h2>SIGN UP</h2>
 					<i class="material-icons icon2">account_circle</i>
 					<input type="text" name="username" id="uname" minlength="4" placeholder="Username" required="required"><br>
-					<i class="material-icons icon3">lock</i>
+                    <i class="material-icons icon3">email_logo</i>
+                    <input type="email" name="email" id="email" minlength="4" placeholder="E-mail" required="required"><br>
+                    <i class="material-icons icon4">lock</i>
 					<input type="password" name="password" id="pword" minlength="4" placeholder="Password" required="required"><br>
-					<p><a href="">Forgot password?</a></p>
-					<input type="submit" class="submit" value="Login">
+                    <i class="material-icons icon5">lock</i>
+                    <input type="password" name="password" id="pword2" minlength="4" placeholder="Confirm password" required="required"><br>
+                    <input type="submit" class="submit" value="Submit">
+                    <input type="reset" class="submit" value="Reset">
 					<h6>Powered by Team Neptune</h6>
 				</form>
 			</section>

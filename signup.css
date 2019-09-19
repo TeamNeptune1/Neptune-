@@ -1,4 +1,4 @@
-/*Code modified by @Atinu*/
+/*Code by @Ayoemma*/
 
 * {
 	margin: 0;
@@ -110,9 +110,10 @@ nav ul li a {
 	margin-top: 30px;
 }
 
-.login-form h3{
+.login-form h2{
 	color: rgba(161, 9, 56, 0.9);
-	margin-bottom: 5px;
+    margin-bottom: 1px;
+    margin-top: 1px;
 }
 
 #uname {
@@ -122,9 +123,24 @@ nav ul li a {
 	color: #111;
 }
 
+#email {
+    padding: 5px 20px 5px 5px;
+    margin: 10px 0;
+	border-radius: 3px;
+	border: none;
+	color: #111;
+}
+
 #pword {
 	padding: 5px 20px 5px 5px;
-	margin: 10px 0;
+	margin: 5px 0;
+	border-radius: 3px;
+	border: none;
+}
+
+#pword2 {
+	padding: 5px 20px 5px 5px;
+	margin: 5px 0;
 	border-radius: 3px;
 	border: none;
 }
@@ -137,7 +153,7 @@ nav ul li a {
 .login-form p a {
 	position: absolute;
 	width: 150px;
-	height: 50px;
+	height: 450px;
 	left: 100%;
 	top: 100%;
 	margin-top: -120px;
@@ -153,7 +169,16 @@ input[type=submit] {
 	border: none;
 	border-radius: 15px;
 	padding: 4px 20px;
-	margin: 30px 0;
+	margin: 2px 0;
+	cursor: pointer;
+}
+
+input[type=reset] {
+	background-color: rgba(252, 5, 5, 0.84);
+	border: none;
+	border-radius: 15px;
+	padding: 4px 20px;
+	margin: 2px 0;
 	cursor: pointer;
 }
 
@@ -167,6 +192,10 @@ input[type=submit]:hover {
   background-color: red;
 }
 
+input[type=reset]:hover {
+    background-color: pink;
+  }
+  
 .login-form h6 {
 	margin: 10px 0;
 }
@@ -187,7 +216,7 @@ input[type=submit]:hover {
 	position: absolute;
 	left: 10%;
 	top: 100%;
-	margin-top: -193px;
+	margin-top: -190px;
 	margin-left: -88px;
 }
 
@@ -195,6 +224,21 @@ input[type=submit]:hover {
 	position: absolute;
 	left: 10%;
 	top: 100%;
-	margin-top: -158px;
+	margin-top: -154px;
+	margin-left: -88px;
+}
+
+.icon4 {
+	position: absolute;
+	left: 10%;
+	top: 100%;
+	margin-top: -115px;
+	margin-left: -88px;
+}
+.icon5 {
+	position: absolute;
+	left: 10%;
+	top: 100%;
+	margin-top: -80px;
 	margin-left: -88px;
 }
